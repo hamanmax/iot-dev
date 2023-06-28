@@ -30,4 +30,4 @@ spec:
     targetPort: 80
   selector:
     app: will-app
-  type: LoadBalancer
+  type: ClusterIP
